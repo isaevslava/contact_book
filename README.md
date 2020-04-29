@@ -1,6 +1,6 @@
-#Contact Book
+# Contact Book
 
-##Installation
+## Installation
 ```bash
 touch database/database.sqlite
 composer install 
@@ -9,8 +9,13 @@ npm run dev
 php artisan migrate
 ```
 
-##Usage
+## Usage
 ```bash
 php artisan serve
 ```
 Go to http://127.0.0.1:8000/contacts
+
+## Testing
+```bash
+php artisan test
+```
